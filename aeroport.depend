@@ -1,0 +1,20 @@
+# depslib dependency file v1.0
+1363554659 source:/home/xaragne/aeroport/main.c
+	<stdio.h>
+	<stdlib.h>
+
+1363553852 source:/home/xaragne/aeroport/generator.cpp
+	<stdio.h>
+	<stdio.h>
+	<stdlib.h>
+	"generator.h"
+
+1363554424 /home/xaragne/aeroport/generator.h
+
+1363554715 source:/home/xaragne/aeroport/generator.c
+	<stdio.h>
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"generator.h"
+
