@@ -14,7 +14,7 @@ int main() // programme principal ----------------------------------------------
     int i;
     for (i=0; i<90; i++)
     {
-        fkr_nom_famille(dst);//        fkr_nom_famille(dst); fkr_nom_famille
+        fkr_nom_famille(dst);
 
         printf("%-15s ", dst);
 

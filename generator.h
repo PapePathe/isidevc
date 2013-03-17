@@ -29,7 +29,26 @@
     /**
      * Un tableau de chaines contenant des prénoms de femmes du sénégal
      */
-    static const char *noms_femmes[226] = { "Abibatou", "Aby", "Absa", "Adama", "Adiouma", "Adji", "Adja", "Aïcha", "Aïda", "Aïssatou", "Akinumelob", "Alima", "Alimatou", "Alinesiitowe", "Aloendisso", "Altine", "Ama", "Aminata", "Aminta", "Amy", "Amina", "Anta", "Arame", "Assa", "Assietou", "Astou", "Ata", "Atia", "Awa", "Awentorébé", "Ayimpen", "Banel", "Batouly", "Bigué", "Billé", "Binta", "Bineta", "Binette", "Binta", "Bintou", "Borika", "Bougouma", "Boury", "Bousso", "Ciramadi", "Codou", "Combé", "Coudouution", "Coumba", "Coumboye", "Coura", "Daba", "Dado", "Daka", "Debbo", "Défa", "Dewel", "Dewene", "Diakher", "Diakhou", "Dialikatou", "Dianké", "Diariatou", "Diarra", "Diary", "Dibor", "Dieourou", "Dior", "Diouma", "Djaly", "Djébou", "Djeynaba", "Dkikel", "Djilane", "Enfadima", "Fabala", "Fabinta", "Fadima", "Fakane", "Fama", "Fanta", "Farmata", "Fatima", "Fatou", "Fatoumatou", "Fily", "Garmi", "Gnagna", "Gnilane", "Gnima", "Gouya", "Guignane", "Guissaly", "Haby", "Hawa", "Heinda", "Holèl", "Issate", "Kankou", "Karimatou", "Kenbougoul", "Kéwé", "Kadiali", "Khadija", "Khadijatou", "Khady", "Khar", "Khary", "Khayfatte", "Khoudia", "Khoudjedji", "Khoumbaré", "Kiné", "Korka", "Laf", "Lama", "Léna", "Lika", "Lissah", "Liwane", "Mada", "Madior", "Madjiguène", "Maguette", "Mahawa", "Mame", "Mamina", "Manthita", "Marème", "Mariama", "Mamassa", "Mane", "Maty", "Mayatta", "Maymouna", "Mbarou", "Mbayeng", "Mbissine", "Mbossé", "Mingue", "Mintou", "Mouskéba", "Nafi", "Nbieumbet", "Ndella", "Ndeye", "Ndiarenioul", "Ndiasse", "Ndiaty", "Ndiémé", "Ndioba", "Ndiolé", "Ndioro", "Ndombo", "Néné", "Neyba", "Ngoné", "Ngosse", "Nguenar", "Nguissaly", "Niakuhufosso", "Niali", "Nialine", "Ningou", "Nini", "Niouma", "Oulèye", "Ouly", "Oulimata", "Oumou", "Oumy", "Oureye", "Penda", "Raby", "Raki", "Rama", "Ramatoulaye", "Ramata", "Rokhaya", "Roubba", "Roughy", "Sadio", "Safiétou", "Safi", "Sagar", "Sahaba", "Salimata", "Salamata", "Sanakha", "Sarratou", "Saoudatou", "Sawdiatou", "Selbé", "Sell", "Seynabou", "Seyni", "Sibett", "Siga", "Sira", "Sirabiry", "Soda", "Sofiatou", "Sofietou", "Sokhna", "Souadou", "Soukeye", "Soukeyna", "Tabara", "Tacko", "Taki", "Tening", "Téwa", "Tiné", "Thiomba", "Thiony", "Thioro", "Thioumbane", "Tocka", "Tokoselle", "Toly", "Walty", "Yadicone", "Yacine", "Yandé", "Yaye" };
+    static const char *noms_femmes[226] = { "Abibatou", "Aby", "Absa", "Adama", "Adiouma", "Adji", "Adja", "Aïcha", "Aïda", "Aïssatou",
+        "Akinumelob", "Alima", "Alimatou", "Alinesiitowe", "Aloendisso", "Altine", "Ama", "Aminata", "Aminta", "Amy", "Amina", "Anta",
+        "Arame", "Assa", "Assietou", "Astou", "Ata", "Atia", "Awa", "Awentorébé", "Ayimpen", "Banel", "Batouly", "Bigué", "Billé",
+        "Binta", "Bineta", "Binette", "Binta", "Bintou", "Borika", "Bougouma", "Boury", "Bousso", "Ciramadi", "Codou", "Combé",
+         "Coudouution", "Coumba", "Coumboye", "Coura", "Daba", "Dado", "Daka", "Debbo", "Défa", "Dewel", "Dewene", "Diakher", "Diakhou",
+         "Dialikatou", "Dianké", "Diariatou", "Diarra", "Diary", "Dibor", "Dieourou", "Dior", "Diouma", "Djaly", "Djébou", "Djeynaba",
+         "Dkikel", "Djilane", "Enfadima", "Fabala", "Fabinta", "Fadima", "Fakane", "Fama", "Fanta", "Farmata", "Fatima", "Fatou", "Fatoumatou",
+         "Fily", "Garmi", "Gnagna", "Gnilane", "Gnima", "Gouya", "Guignane", "Guissaly", "Haby", "Hawa", "Heinda", "Holèl", "Issate",
+         "Kankou", "Karimatou", "Kenbougoul", "Kéwé", "Kadiali", "Khadija", "Khadijatou", "Khady", "Khar", "Khary", "Khayfatte", "Khoudia",
+         "Khoudjedji", "Khoumbaré", "Kiné", "Korka", "Laf", "Lama", "Léna", "Lika", "Lissah", "Liwane", "Mada", "Madior", "Madjiguène",
+         "Maguette", "Mahawa", "Mame", "Mamina", "Manthita", "Marème", "Mariama", "Mamassa", "Mane", "Maty", "Mayatta", "Maymouna", "Mbarou",
+         "Mbayeng", "Mbissine", "Mbossé", "Mingue", "Mintou", "Mouskéba", "Nafi", "Nbieumbet", "Ndella", "Ndeye", "Ndiarenioul", "Ndiasse",
+         "Ndiaty", "Ndiémé", "Ndioba", "Ndiolé", "Ndioro", "Ndombo", "Néné", "Neyba", "Ngoné", "Ngosse", "Nguenar", "Nguissaly",
+         "Niakuhufosso", "Niali", "Nialine", "Ningou", "Nini", "Niouma", "Oulèye", "Ouly", "Oulimata", "Oumou", "Oumy", "Oureye", "Penda",
+         "Raby", "Raki", "Rama", "Ramatoulaye", "Ramata", "Rokhaya", "Roubba", "Roughy", "Sadio", "Safiétou", "Safi", "Sagar", "Sahaba",
+         "Salimata", "Salamata", "Sanakha", "Sarratou", "Saoudatou", "Sawdiatou", "Selbé", "Sell", "Seynabou", "Seyni", "Sibett", "Siga",
+         "Sira", "Sirabiry", "Soda", "Sofiatou", "Sofietou", "Sokhna", "Souadou", "Soukeye", "Soukeyna", "Tabara", "Tacko", "Taki", "Tening",
+         "Téwa", "Tiné", "Thiomba", "Thiony", "Thioro", "Thioumbane", "Tocka", "Tokoselle", "Toly", "Walty", "Yadicone", "Yacine", "Yandé",
+         "Yaye"
+    };
 // prenoms de femmes ------------------------------------------------------------------------------------
 
 
@@ -37,7 +56,31 @@
     /**
      * Un tableau de chaines contenant des prénoms d'hommes du sénégal
      */
-    static const char *noms_hommes[305] = { "Abba", "Abdallah", "Abdou", "Abdoulatif", "Abdoulaye", "Abdourahmane", "Ablaye", "Abou", "Adama", "Agouloubene", "Aïnina", "Aladji", "Alassane", "Albouri", "Alfa", "Alfousseyni", "Aliou", "Alioune", "Allé", "Almamy", "Amadou", "Amara", "Amath", "Amidou", "Ansoumane", "Anta", "Arfang", "Arona", "Assane", "Ass", "Aziz", "Baaba", "Babacar", "Babou", "Badara", "Badou", "Bacar", "Baïdi", "Baila", "Bakari", "Ballago", "Balla", "Bamba", "Banta", "Bara", "Bassirou", "Bathie", "Bayo", "Becaye", "Bilal", "Biram", "Birane", "Birima", "Biry", "Bocar", "Bodiel", "Bolikoro", "Boubacar", "Boubou", "Bougouma", "Bouly", "Bouna", "Bourkhane", "Bransan", "Cheikh", "Chérif", "Ciré", "Daly", "Dame", "Daouda", "Daour", "Demba", "Dényanké", "Diakhou", "Dial", "Dialamba", "Dialegueye", "Dianco", "Dicory", "Diégane", "Diène", "Dierry", "Diokel", "Diokine", "Diomaye", "Djibo", "Djibril", "Djiby", "Doudou", "Dramane", "ElHadj", "Elimane", "Facourou", "Fadel", "Falilou", "Fallou", "Famara", "Farba", "Fatel", "Fodé", "Fodey", "Fodié", "Foulah", "Galaye", "Gaoussou", "Gora", "Gorgui", "Goumbo", "Goundo", "Guidado", "Habib", "Hadiya", "Hady", "Hamidou", "Hammel", "Hatab", "Iba", "Ibrahima", "Ibou", "Idrissa", "Insa", "Ismaïl", "Ismaïla", "Issa", "Isshaga", "Jankebay", "Jamuyon", "Kader", "Kainack", "Kalidou", "Kalilou", "Kambia", "Kao", "Kaourou", "Karamo", "Kéba", "Khadim", "Khadir", "Khalifa", "Khamby", "Khary", "Khoudia", "Khoule", "Kor", "Koutoubo", "Lamine", "Lamp", "Landing", "Lat", "Latif", "Latsouck", "Latyr", "Lémou", "Léou", "Leyti", "Libasse", "Limane", "Loumboul", "Maba", "Macky", "Macodou", "Madia", "Madické", "Mady", "Mactar", "Maffal", "Maguette", "Mahécor", "Makan", "Malal", "Malamine", "Malang", "Malaw", "Malick", "Mallé", "Mamadou", "Mamour", "Mansour", "Maodo", "Mapaté", "Mar", "Massamba", "Massar", "Masseck", "Mbagnick", "Mbakhane", "Mbamoussa", "Mbar", "Mbaye", "Mébok", "Médoune", "Meïssa", "Modou", "Moktar", "Momar", "Mor", "Mountaga", "Moussa", "Moustapha", "Namori", "Ndane", "Ndiack", "Ndiaga", "Ndiankou", "Ndiaw", "Ndiawar", "Ndiaya", "Ndiogou", "Ndiouga", "Ndongo", "Ngagne", "Ngor", "Nguénar", "Niakar", "Niankou", "Niokhor", "Nouh", "Nouha", "Npaly", "Ogo", "Omar", "Opa", "Oumar", "Oury", "Ousmane", "Ousseynou", "Papa", "Pape", "Papis", "Pathé", "Racine", "Sadibou", "Sacoura", "Saër", "Sahaba", "Saïdou", "Sakhir", "Salam", "Salif", "Saliou", "Saloum", "Samba", "Samori", "Samsidine", "Sandigui", "Sankoun", "Sanokho", "Sécouba", "Sédar", "Sékou", "Semou", "Senghane", "Serigne", "Seyba", "Seydina", "Seydou", "Sibiloumbaye", "Sidate", "Sidy", "Siéka", "Sihalébé", "Sihounke", "Silly", "Socé", "Sogui", "Soireba", "Solal", "Sonar", "Souleymane", "Soundjata", "Sounkarou", "Souty", "Tafsir", "Talla", "Tamsir", "Tanor", "Tayfor", "Tekheye", "Tété", "Thiawlo", "Thierno", "Thione", "Tijane", "Tidjane", "Toumani", "Vieux", "Wagane", "Waly", "Wandifing", "Wasis", "Woula", "Woury", "Yacouba", "Yafaye", "Yakou", "Yankhoba", "Yerim", "Yero", "Yoro", "Yougo", "Younouss", "Youssou", "Yussu", "Youssoufa" };
+    static const char *noms_hommes[305] = { "Abba", "Abdallah", "Abdou", "Abdoulatif", "Abdoulaye", "Abdourahmane", "Ablaye", "Abou", "Adama",
+        "Agouloubene", "Aïnina", "Aladji", "Alassane", "Albouri", "Alfa", "Alfousseyni", "Aliou", "Alioune", "Allé", "Almamy", "Amadou",
+        "Amara", "Amath", "Amidou", "Ansoumane", "Anta", "Arfang", "Arona", "Assane", "Ass", "Aziz", "Baaba", "Babacar", "Babou", "Badara",
+        "Badou", "Bacar", "Baïdi", "Baila", "Bakari", "Ballago", "Balla", "Bamba", "Banta", "Bara", "Bassirou", "Bathie", "Bayo", "Becaye",
+        "Bilal", "Biram", "Birane", "Birima", "Biry", "Bocar", "Bodiel", "Bolikoro", "Boubacar", "Boubou", "Bougouma", "Bouly", "Bouna",
+        "Bourkhane", "Bransan", "Cheikh", "Chérif", "Ciré", "Daly", "Dame", "Daouda", "Daour", "Demba", "Dényanké", "Diakhou", "Dial",
+        "Dialamba", "Dialegueye", "Dianco", "Dicory", "Diégane", "Diène", "Dierry", "Diokel", "Diokine", "Diomaye", "Djibo", "Djibril",
+        "Djiby", "Doudou", "Dramane", "ElHadj", "Elimane", "Facourou", "Fadel", "Falilou", "Fallou", "Famara", "Farba", "Fatel", "Fodé",
+        "Fodey", "Fodié", "Foulah", "Galaye", "Gaoussou", "Gora", "Gorgui", "Goumbo", "Goundo", "Guidado", "Habib", "Hadiya", "Hady",
+        "Hamidou", "Hammel", "Hatab", "Iba", "Ibrahima", "Ibou", "Idrissa", "Insa", "Ismaïl", "Ismaïla", "Issa", "Isshaga", "Jankebay",
+        "Jamuyon", "Kader", "Kainack", "Kalidou", "Kalilou", "Kambia", "Kao", "Kaourou", "Karamo", "Kéba", "Khadim", "Khadir", "Khalifa",
+        "Khamby", "Khary", "Khoudia", "Khoule", "Kor", "Koutoubo", "Lamine", "Lamp", "Landing", "Lat", "Latif", "Latsouck", "Latyr", "Lémou",
+        "Léou", "Leyti", "Libasse", "Limane", "Loumboul", "Maba", "Macky", "Macodou", "Madia", "Madické", "Mady", "Mactar", "Maffal",
+        "Maguette", "Mahécor", "Makan", "Malal", "Malamine", "Malang", "Malaw", "Malick", "Mallé", "Mamadou", "Mamour", "Mansour", "Maodo",
+        "Mapaté", "Mar", "Massamba", "Massar", "Masseck", "Mbagnick", "Mbakhane", "Mbamoussa", "Mbar", "Mbaye", "Mébok", "Médoune", "Meïssa",
+        "Modou", "Moktar", "Momar", "Mor", "Mountaga", "Moussa", "Moustapha", "Namori", "Ndane", "Ndiack", "Ndiaga", "Ndiankou", "Ndiaw",
+        "Ndiawar", "Ndiaya", "Ndiogou", "Ndiouga", "Ndongo", "Ngagne", "Ngor", "Nguénar", "Niakar", "Niankou", "Niokhor", "Nouh", "Nouha",
+        "Npaly", "Ogo", "Omar", "Opa", "Oumar", "Oury", "Ousmane", "Ousseynou", "Papa", "Pape", "Papis", "Pathé", "Racine", "Sadibou",
+        "Sacoura", "Saër", "Sahaba", "Saïdou", "Sakhir", "Salam", "Salif", "Saliou", "Saloum", "Samba", "Samori", "Samsidine", "Sandigui",
+        "Sankoun", "Sanokho", "Sécouba", "Sédar", "Sékou", "Semou", "Senghane", "Serigne", "Seyba", "Seydina", "Seydou", "Sibiloumbaye",
+        "Sidate", "Sidy", "Siéka", "Sihalébé", "Sihounke", "Silly", "Socé", "Sogui", "Soireba", "Solal", "Sonar", "Souleymane", "Soundjata",
+        "Sounkarou", "Souty", "Tafsir", "Talla", "Tamsir", "Tanor", "Tayfor", "Tekheye", "Tété", "Thiawlo", "Thierno", "Thione", "Tijane",
+        "Tidjane", "Toumani", "Vieux", "Wagane", "Waly", "Wandifing", "Wasis", "Woula", "Woury", "Yacouba", "Yafaye", "Yakou", "Yankhoba",
+        "Yerim", "Yero", "Yoro", "Yougo", "Younouss", "Youssou", "Yussu", "Youssoufa"
+    };
 // prenoms d'hommes ------------------------------------------------------------------------------------
 
 /**

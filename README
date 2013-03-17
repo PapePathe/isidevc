@@ -1,0 +1,19 @@
+Dans la deuxième partie de ce tutoriel nous allons implémenter notre librairie.
+
+PRINCIPE
+--------
+Pour chacune de nos trois fonctions on va déclarer un tableau de chaines correspondant.
+Chaque fonction qui recoit comme unique argument un pointeur sur une chaine.
+Ensuite elle selectionne une valeur aléatoire dans le tableau de chaines correspondant.
+Et finalement on range cette valeur dans le pointeur
+
+ALGORITHME
+----------
+ * déclarer un tableau de chaines
+ * déclarer un pointeur sur une chaine
+ * utiliser srand pour générer un index inclus dans le tableau
+ * ranger la valeur située a cet index dans le pointeur
+
+CODE SOURCE
+-----------
+Le code source est disponible à l'@ suivante
