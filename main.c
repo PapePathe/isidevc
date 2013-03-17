@@ -1,18 +1,3 @@
-/**
-
- * QUESTIONS
-
- * créer des enregistrements dans chaque structure
-
- * afficher le nom et le prénom des pilotes qui ont utilisé des avions dont le nombre de
-   places dépasse 100 appartenant à la compagnie AIR SENEGAL durant l'année 2012
-
- * afficher le nom des avions de AIR FRANCE qui on été utilisés plus d'une fois par le pilote 201 au mois
-   de janvier 2013.
-
- */
-
-
 #include <stdio.h>
 #include <stdlib.h>
 
